@@ -41,7 +41,7 @@ header {
 
 .h1-cont h1,
 h2 {
-    font-weight: 150;
+    font-weight: 600;
     font-size: 1.6rem;
     margin: 0 5px;
     color: #222;
@@ -49,6 +49,8 @@ h2 {
 
 .h1-cont h2 {
     font-size: 1rem;
+    padding-top: 2px;
+    font-weight: 600;
 }
 
 .logo-container {
@@ -78,6 +80,5 @@ h2 {
 }
 
 .menu-div img {
-
     max-width: 100%;
 }
