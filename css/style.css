@@ -5,68 +5,91 @@
 }
 
 body {
-    background-color: #ddd;
-    font-family: "Montserrat", sans-serif;
+    color:#111;
+    font-family:'Times New Roman', Times, serif;
     width: 100%;
     overflow-x: hidden;
     display: grid;
     place-items: center;
 }
 
-header {
+h2 {
+    padding: 15px;
+    text-align: center;
+    font-weight: 150;
+    font-size: 1.6rem;
+    text-shadow: #aaa 1px 0 10px;
+   box-shadow: 0 0 5px #333;
+}
+
+
+.header {
+    z-index: 1000;
+    background-color: #ededed;
+    position: sticky;
+    top: 0;
     width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: transform .3s ease;
+}
+
+.header.show {
+    transform: translateY(-100%);
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: #ddd;
-    position: fixed;
-    top: 0;
     width: 100%;
-    display: grid;
-    place-content: center;
-}
-
-.h1-cont {
-
-    margin-left: 8px;
+    height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-.h1-cont a {
-    text-decoration: none;
-}
-
-.h1-cont h1,
-h2 {
-    font-weight: 600;
-    font-size: 1.6rem;
-    margin: 0 5px;
-    color: #222;
-}
-
-.h1-cont h2 {
-    font-size: 1rem;
-    padding-top: 2px;
-    font-weight: 600;
 }
 
 .logo-container {
-    /* background-color: #fff !important; */
-    background-color: #ddd;
+    background-color: #ededed;
     width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: baseline;
-    /* text-align: center; */
+    justify-content: center;
     align-items: center;
 }
 
-
 .img-logo {
-    border-radius: 100%;
-    height: 85px;
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #222;
+}
+
+.main {}
+
+.parallax {
+    background-image: url("../imagenes/Capuccino.JPG");
+    min-height: 350px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("../imagenes/Pintura.JPG");
 }
 
 .menu-div {
@@ -75,10 +98,50 @@ h2 {
     justify-content: center;
     width: 100%;
     max-width: 800px;
-    margin-top: 90px;
-
 }
 
 .menu-div img {
     max-width: 100%;
 }
+
+footer {
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    background-color: #ededed;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    border-top: 1px solid #222;
+}
+.footer-menu {
+    padding: 25px 0;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: #222;
+    text-shadow: #999 1px 0 10px;
+
+}
+.footer-menu a:hover {
+    text-decoration: underline;
+    text-shadow: #222 1px 0 10px;
+}
+
+.a-instagram {
+    font-size: 3rem;
+}
+
+.copyright {
+    color: #333;
+    text-shadow: #ddd 1px 0 10px;
+
+    padding: 15px;
+    text-align: center;
+}
+
+
+
