@@ -79,9 +79,9 @@ h2 {
 .main {}
 
 .parallax {
+    min-width: 100%;
     background-image: url("../imagenes/Capuccino.JPG");
     min-height: 80vh;
-    max-height: 80vh;
 
     background-attachment: fixed;
     background-position: center;
