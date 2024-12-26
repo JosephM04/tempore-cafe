@@ -83,7 +83,7 @@ h2 {
     background-image: url("../imagenes/Capuccino.JPG");
     min-height: 80vh;
 
-    background-attachment: fixed;
+    background-attachment: scroll, local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
