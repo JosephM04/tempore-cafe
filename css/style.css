@@ -77,14 +77,16 @@ h2 {
     font-weight: 700;
 }
 
-.main {}
+.main {
+    width: 100%;
+}
 
 .parallax {
-    min-width: 100%;
+    width: 100%;
     background-image: url("../imagenes/Capuccino.JPG");
     min-height: 80vh;
 
-    background-attachment: scroll, local;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +97,7 @@ h2 {
 }
 
 .menu-div {
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
