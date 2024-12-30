@@ -1,6 +1,11 @@
 "use strict";
 
 const header = document.querySelector('.header');
+const presentacionTitulo = document.querySelector('.presentacion-titulo');
+
+window.onload = function() {
+    presentacionTitulo.style.opacity = 0.15;
+}
 
 let prevScrollPos = window.scrollY;
 

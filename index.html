@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font para presentacion -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+
+    <!--  -->
+    
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><!--  Box icons -->
     <link rel="shortcut icon" href="logo/tempore-cafe-logo-no-letters-logo.png">
@@ -18,12 +26,12 @@
                 <img class="img-logo" src="logo/tempore-cafe-logo-no-letters-logo.png"
                     alt="Logo de témpore café de especialidad" />
                 <!-- </a> -->
-                <!-- <div class="h1-cont">
+                <div class="h1-cont">
                         <a href="index.html">
                             <h1>Témpore</h1>
                             <h2>Café de Especialidad</h2>
                         </a>
-                    </div> -->
+                    </div>
             </div>
 
             <div class="nav-menu">
@@ -35,20 +43,34 @@
     </header>
 
     <div class="main">
-        <div class="parallax"></div>
+        <!-- <div class="parallax parallax1"></div> -->
 
-        <h2 id="ubicacion">Ubicación</h2>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d348.84609862673534!2d-82.42702210161583!3d8.426873555375163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa59d00608642e1%3A0xd7b667ebf7831f00!2sT%C3%A9mpore%2C%20caf%C3%A9%20de%20especialidad.!5e0!3m2!1ses-419!2spa!4v1735233240181!5m2!1ses-419!2spa"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="presentacion">
+            <video autoplay muted loop>
+                <source src="videos/tempore_haciendo_capuccino.mp4" type="video/mp4">
+                <source src="videos/tempore_haciendo_capuccino.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+            <h2 class="presentacion-titulo">La magia comienza aquí</h2>
+        </div>
 
-        <div class="parallax parallax2"></div>
+        <div class="ubicacion">
+            <h2 id="ubicacion">Ubicación</h2>
 
-        <h2 id="menu">Menu</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d348.84609862673534!2d-82.42702210161583!3d8.426873555375163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa59d00608642e1%3A0xd7b667ebf7831f00!2sT%C3%A9mpore%2C%20caf%C3%A9%20de%20especialidad.!5e0!3m2!1ses-419!2spa!4v1735233240181!5m2!1ses-419!2spa"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-        <div class="menu-div">
-            <img src="menu/menu-imagenes/tempore-cafe-menu_page-0001.jpg" alt="Menú página 1">
+        <div class="parallax">
+            <h2>Menú</h2>
+        </div>
+
+        <!-- <h2 id="menu">Menu</h2> -->
+
+        <div  id="menu" class="menu-div">
+            <!-- <img src="menu/menu-imagenes/tempore-cafe-menu_page-0001.jpg" alt="Menú página 1"> -->
             <img src="menu/menu-imagenes/tempore-cafe-menu_page-0002.jpg" alt="Menú página 2">
             <img src="menu/menu-imagenes/tempore-cafe-menu_page-0003.jpg" alt="Menú página 3">
             <img src="menu/menu-imagenes/tempore-cafe-menu_page-0004.jpg" alt="Menú página 4">
@@ -59,9 +81,11 @@
 
     <footer>
         <div class="footer-menu">
-            <a class="a-instagram" href="https://www.instagram.com/tempore_cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class='bx bxl-instagram'></i></a>
+            <a class="a-instagram"
+                href="https://www.instagram.com/tempore_cafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                    class='bx bxl-instagram'></i></a>
             <a class="a-whatsapp" href="https://wa.me/+50768263852"><i class='bx bxl-whatsapp'></i></a>
-        </div> 
+        </div>
 
         <p class="copyright">&copy; 2024 Témpore, Café de Especialidad. Todos los derechos reservados.</p>
     </footer>

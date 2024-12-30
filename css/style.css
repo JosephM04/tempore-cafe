@@ -19,9 +19,38 @@ h2 {
     font-weight: 150;
     font-size: 1.6rem;
     text-shadow: #aaa 1px 0 10px;
-    box-shadow: 0 0 5px #333;
 }
 
+
+.h1-cont {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-cont a {
+    text-decoration: none;
+}
+
+.h1-cont h1 {
+    text-shadow: 1px 1px 3px #111;
+    text-shadow: 1px 1px 1px #ffffff;
+    font-weight: lighter;
+}
+
+.h1-cont h1,
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: #111;
+}
+
+.h1-cont h2 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1px;
+}
 
 .header {
     z-index: 1000;
@@ -81,20 +110,64 @@ h2 {
     width: 100%;
 }
 
+.presentacion {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    height: 80vh;
+    overflow: hidden;
+    /* Evita que el video sobresalga del contenedor */
+}
+
+.presentacion video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* Para posicionar correctamente el video */
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.presentacion h2 {
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(237, 237, 237);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+    transition-delay: 2s;
+    transition: opacity 4s ease-in;
+}
+
 .parallax {
     width: 100%;
-    background-image: url("../imagenes/Capuccino.JPG");
-    min-height: 700px;
-
+    /* background-image: url("../imagenes/Capuccino.JPG"); */
+    background-image: url("../imagenes/Pintura.JPG");
+    min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.parallax2 {
-    background-image: url("../imagenes/Pintura.JPG");
-    background-size: cover;
+.parallax h2 {
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(237, 237, 237);
+    font-size: 72px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
 }
 
 .menu-div {
