@@ -89,11 +89,12 @@ h2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 120%;
 }
 
 .parallax2 {
     background-image: url("../imagenes/Pintura.JPG");
+    background-size: cover;
 }
 
 .menu-div {
