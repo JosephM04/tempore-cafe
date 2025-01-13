@@ -155,6 +155,10 @@ h2 {
     justify-content: center;
 }
 
+.parallax1 {
+    display: none;
+}
+
 .parallax h2 {
     font-family: "Playball", serif;
     font-weight: 400;
@@ -163,6 +167,11 @@ h2 {
     color: rgb(237, 237, 237);
     font-size: 72px;
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+}
+
+.ubicacion {
+    margin: auto;
+    max-width: 1000px;
 }
 
 .menu-div {
@@ -178,8 +187,6 @@ h2 {
     max-width: 100%;
 }
 
-
-
 .link-menu {
     display: flex;
     align-items: center;
@@ -189,8 +196,6 @@ h2 {
     font-size: 1.6rem;
     width: 100%;
 }
-
-
 
 .link-menu a {
     width: 100%;
@@ -250,4 +255,19 @@ footer {
     text-shadow: #ddd 1px 0 10px;
     padding: 15px;
     text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+    .parallax {
+        display: flex;
+        width: 100%;
+        /* background-image: url("../imagenes/Capuccino.JPG"); */
+        background-image: url("../imagenes/Pintura.JPG");
+        min-height: 90vh;
+        background-position: center;
+    }
+
+    .presentacion {
+        display: none;
+    }
 }
