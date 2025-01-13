@@ -18,7 +18,7 @@ h2 {
     text-align: center;
     font-weight: 150;
     font-size: 1.6rem;
-    text-shadow: #aaa 1px 0 10px;
+    text-shadow: #ccc 1px 0 10px;
 }
 
 
@@ -169,9 +169,66 @@ h2 {
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
 }
 
+.direccion {
+    text-align: center;
+    margin: 10px;
+
+}
 .ubicacion {
     margin: auto;
     max-width: 1000px;
+}
+
+.horas-apertura {
+    background-color: #C0956F; /* Fondo cálido */
+    color: white; /* Texto en blanco para contraste */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .horas-apertura h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #111; /* Título en color oscuro para contraste */
+  }
+  
+  .horas {
+    font-size: 1.2rem;
+  }
+  
+  .dia {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo sutil para separar días */
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .dia span:first-child {
+    color: #FDF6E3; /* Texto claro para los días */
+  }
+  
+  .dia span:last-child {
+    color: #FFF; /* Blanco para las horas */
+  }
+
+.frase-div {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: justify;
 }
 
 .menu-div {
@@ -192,9 +249,14 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 80px;
-    background: #222;
+    background: #C0956F;
     font-size: 1.6rem;
-    width: 100%;
+    width: 70%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 55px 0;
+    box-shadow: 10px 10px 5px #999;
+    transition: .1s;
 }
 
 .link-menu a {
@@ -205,12 +267,17 @@ h2 {
     font-size: 1.4rem;
     font-weight: 800;
     text-align: center;
-    color: #fff;
+    color: #111;
     text-decoration: none;
+    transition: .3s;
+}
+
+.link-menu a:hover {
+    font-size:1.7rem;
 }
 
 .link-menu:hover {
-    background-color: #323232;
+    background-color: #6E7A75;
 }
 
 footer {
@@ -224,7 +291,17 @@ footer {
     border-top: 1px solid #222;
 }
 
-.footer-menu {
+.footer-info {
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.footer-info p {
+    margin-top: 5px;
+}
+
+.footer-redes {
     padding: 25px 0;
     display: flex;
     flex-direction: row;
@@ -233,21 +310,22 @@ footer {
     width: 100%;
 }
 
-.footer-menu a {
+.footer-redes a {
     padding: 0 10px;
     text-decoration: none;
     color: #222;
     text-shadow: #ccc 1px 0 10px;
-}
-
-.footer-menu a:hover {
-    text-decoration: underline;
-    text-shadow: #222 1px 0 10px;
+    transition: .3s;
 }
 
 .a-instagram,
 .a-whatsapp {
     font-size: 3rem;
+}
+
+.footer-redes a:hover {
+    font-size: 3.3rem;
+    text-shadow: #C0956F 1px 0 10px;
 }
 
 .copyright {
@@ -263,11 +341,20 @@ footer {
         width: 100%;
         /* background-image: url("../imagenes/Capuccino.JPG"); */
         background-image: url("../imagenes/Pintura.JPG");
-        min-height: 90vh;
+        min-height: 100vh;
         background-position: center;
     }
 
     .presentacion {
         display: none;
+    }
+
+    .parallax2 {
+        display: flex;
+        width: 100%;
+        /* background-image: url("../imagenes/Capuccino.JPG"); */
+        background-image: url("../imagenes/Capuccino+Empanada.jpg");
+        min-height: 100vh;
+        background-position: center;
     }
 }
