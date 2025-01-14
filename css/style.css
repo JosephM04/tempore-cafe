@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 body {
@@ -18,9 +20,7 @@ h2 {
     text-align: center;
     font-weight: 150;
     font-size: 1.6rem;
-    text-shadow: #ccc 1px 0 10px;
 }
-
 
 .h1-cont {
     margin-left: 8px;
@@ -98,7 +98,7 @@ h2 {
     text-decoration: none;
     padding: 10px 15px;
     color: #222;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .main {
@@ -181,9 +181,13 @@ h2 {
 }
 
 .horas-apertura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: #C0956F;
     /* Fondo cálido */
-    color: white;
+    color: #fff;
     /* Texto en blanco para contraste */
     padding: 40px 20px;
     text-align: center;
@@ -191,11 +195,12 @@ h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     /* Sombra para dar profundidad */
     margin: 20px auto;
-    max-width: 600px;
+
 }
 
 .horas-apertura h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-weight: 800;
     margin-bottom: 20px;
     color: #111;
     /* Título en color oscuro para contraste */
@@ -245,7 +250,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .menu-div img {
@@ -258,12 +263,10 @@ h2 {
     justify-content: center;
     height: 80px;
     background: #C0956F;
-    font-size: 1.6rem;
-    width: 70%;
-    max-width: 400px;
+    width: 386px;
     border-radius: 10px;
     margin: 55px 0;
-    box-shadow: 10px 10px 5px #999;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: .1s;
 }
 
