@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /hidden/
+Allow: /
+
+Sitemap: https://temporecafe.com/sitemap.xml
