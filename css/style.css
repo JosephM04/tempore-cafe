@@ -171,64 +171,72 @@ h2 {
 
 .direccion {
     text-align: center;
-    margin: 10px;
-
+    margin: 20px;
+    text-shadow: 1px 1px 1px #999;
 }
+
 .ubicacion {
     margin: auto;
     max-width: 1000px;
 }
 
 .horas-apertura {
-    background-color: #C0956F; /* Fondo cálido */
-    color: white; /* Texto en blanco para contraste */
+    background-color: #C0956F;
+    /* Fondo cálido */
+    color: white;
+    /* Texto en blanco para contraste */
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra para dar profundidad */
     margin: 20px auto;
     max-width: 600px;
-  }
-  
-  .horas-apertura h2 {
+}
+
+.horas-apertura h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #111; /* Título en color oscuro para contraste */
-  }
-  
-  .horas {
+    color: #111;
+    /* Título en color oscuro para contraste */
+}
+
+.horas {
     font-size: 1.2rem;
-  }
-  
-  .dia {
+}
+
+.dia {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.1); /* Fondo sutil para separar días */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Fondo sutil para separar días */
     padding: 10px 20px;
     margin: 10px 0;
     border-radius: 5px;
     font-weight: bold;
-  }
-  
-  .dia span:first-child {
-    color: #FDF6E3; /* Texto claro para los días */
-  }
-  
-  .dia span:last-child {
-    color: #FFF; /* Blanco para las horas */
-  }
+}
+
+.dia span:first-child {
+    color: #FDF6E3;
+    /* Texto claro para los días */
+}
+
+.dia span:last-child {
+    color: #FFF;
+    /* Blanco para las horas */
+}
 
 .frase-div {
     background-color: #f8f8f8;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
     margin: 20px auto;
     width: 90%;
     max-width: 800px;
-    text-align: justify;
+    text-align: center;
 }
 
 .menu-div {
@@ -273,7 +281,7 @@ h2 {
 }
 
 .link-menu a:hover {
-    font-size:1.7rem;
+    font-size: 1.7rem;
 }
 
 .link-menu:hover {
@@ -288,7 +296,6 @@ footer {
     display: grid;
     place-items: center;
     grid-template-columns: 1fr;
-    border-top: 1px solid #222;
 }
 
 .footer-info {
@@ -297,8 +304,12 @@ footer {
     text-align: center;
 }
 
-.footer-info p {
-    margin-top: 5px;
+.footer-info p:nth-child(2) {
+    margin: 20px;
+}
+
+.footer-info p:nth-child(2):hover {
+    text-decoration: underline;
 }
 
 .footer-redes {
