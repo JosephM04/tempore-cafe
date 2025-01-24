@@ -1,0 +1,37 @@
+.parallax-menu {
+    width: 100%;
+    /* background-image: url("../imagenes/Capuccino.JPG"); */
+    background-image: url("../imagenes/Pintura-vertical.JPG");
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.parallax-menu h2 {
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(237, 237, 237);
+    font-size: 72px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+}
+
+
+@media only screen and (min-width: 720px) {
+   
+    .parallax-menu {
+        display: flex;
+        width: 100%;
+        /* background-image: url("../imagenes/Capuccino.JPG"); */
+        background-image: url("../imagenes/Capuccino+Empanada.jpg");
+        min-height: 100vh;
+        background-position: center;
+    }
+}
