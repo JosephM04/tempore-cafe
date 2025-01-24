@@ -1,4 +1,5 @@
 .parallax-menu {
+    margin-top: 105px;
     width: 100%;
     /* background-image: url("../imagenes/Capuccino.JPG"); */
     background-image: url("../imagenes/Pintura-vertical.JPG");
@@ -12,20 +13,20 @@
     justify-content: center;
 }
 
-
-.parallax-menu h2 {
-    font-family: "Playball", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    color: rgb(237, 237, 237);
-    font-size: 72px;
-    text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+.menu-div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
 }
 
+.menu-div img {
+    max-width: 100%;
+}
 
 @media only screen and (min-width: 720px) {
-   
     .parallax-menu {
         display: flex;
         width: 100%;
