@@ -1,7 +1,5 @@
 .parallax-menu {
-    margin-top: 105px;
     width: 100%;
-    /* background-image: url("../imagenes/Capuccino.JPG"); */
     background-image: url("../imagenes/Pintura-vertical.JPG");
     min-height: 80vh;
     background-attachment: fixed;
