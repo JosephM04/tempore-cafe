@@ -51,13 +51,17 @@
 .direccion {
     text-align: center;
     margin: 20px;
-    text-shadow: 1px 1px 1px #999;
 }
 
 .ubicacion {
     margin: auto;
     max-width: 1000px;
     text-align: center;
+}
+
+.horarios-div {
+    width: 100%;
+    max-width: 386px;
 }
 
 .horas-apertura {
@@ -70,6 +74,7 @@
     color: #fff;
     /* Texto en blanco para contraste */
     padding: 40px 20px;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -87,11 +92,13 @@
 }
 
 .horas {
+    width: 100%;
     font-size: 1.2rem;
 }
 
 .dia {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.1);
     /* Fondo sutil para separar días */
@@ -102,11 +109,13 @@
 }
 
 .dia span:first-child {
+    margin-top: 5px;
     color: #FDF6E3;
     /* Texto claro para los días */
 }
 
 .dia span:last-child {
+    margin-top: 5px;
     color: #FFF;
     /* Blanco para las horas */
 }
