@@ -1,7 +1,7 @@
 .parallax-menu {
     width: 100%;
     background-image: url("../imagenes/Pintura-vertical.JPG");
-    min-height: 80vh;
+    min-height: 70vh;
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
