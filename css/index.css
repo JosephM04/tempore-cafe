@@ -36,7 +36,7 @@
 .parallax-index {
     display: flex;
         width: 100%;
-        background-image: url("../imagenes/promociones/Capuccino.JPG");
+        background-image: url("../imagenes/Capuccino-fondo-tempore.jpeg");
         min-height: 100vh;
         background-position: center;
         background-attachment: fixed;
@@ -47,6 +47,7 @@
         align-items: center;
         justify-content: center;
 }
+
 
 .parallax-index h2 {
     font-family: "Playball", serif;
