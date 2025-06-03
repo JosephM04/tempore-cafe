@@ -1,14 +1,7 @@
-.parallax-menu {
-    width: 100%;
-    background-image: url("../imagenes/Pintura-vertical.JPG");
-    min-height: 70vh;
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .menu-div {
@@ -16,21 +9,142 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    max-width: 600px;
+    width: 98%;
+}
+
+.menu-h2 {
+
+    width: max-content;
+    text-align: center;
+    background-color: #C0956F;
+    color: #fff;
+    margin: auto;
 }
 
 .menu-div img {
     max-width: 100%;
 }
 
-@media only screen and (min-width: 720px) {
-    .parallax-menu {
-        display: flex;
-        width: 100%;
-        /* background-image: url("../imagenes/Capuccino.JPG"); */
-        background-image: url("../imagenes/Capuccino+Empanada.jpg");
-        min-height: 100vh;
-        background-position: center;
-    }
+.box-menu {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+}
+
+.box-menu div {
+    margin: 5px 0px;
+}
+
+.div-menu-titulo-img {
+    display: flex;
+}
+
+.div-menu-titulo-img h2 {
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+}
+
+.div-menu-titulo-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.div-menu-subtitulo {
+    border-bottom: 1px solid #555;
+    padding: 15px 0;
+    max-width: 350px;
+    height: 435px;
+}
+
+.div-menu-subtitulo-h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-menu-subtitulo-h3 h3 {
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.div-menu-subtitulo-h3 i {
+    width: 10%;
+    text-align: end;
+}
+
+.div-menu-bebidas {
+    max-width: 400px;
+    padding: 10px;
+}
+
+.filtrado-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 1.3rem;
+    padding-left: 5px;
+}
+
+.tabla-bebidas {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.tabla-bebidas td,
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+.div-menu-subtitulo-bebidas {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-producto-precio {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.div-menu-subtitulo p {
+    color: #444;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.div-menu-producto {
+    display: grid;
+    place-content: center;
+}
+
+.img-menu-producto {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 10px #222;
+    margin: 5px 0;
+}
+
+.div-menu-subtitulo li {
+    font-size: 1rem;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.frappe-con-cafe {
+    padding: 15px;
+    width: 100%;
+    color: #ff3333;
 }
