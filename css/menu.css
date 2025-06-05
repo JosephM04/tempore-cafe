@@ -60,7 +60,7 @@
     border-bottom: 1px solid #555;
     padding: 15px 0;
     max-width: 350px;
-    height: 435px;
+    height: auto;
 }
 
 .div-menu-subtitulo-h3 {
@@ -147,4 +147,10 @@ th {
     padding: 15px;
     width: 100%;
     color: #ff3333;
+}
+
+@media only screen and (min-width: 700px) {
+    .div-menu-subtitulo {
+        height: 440px;
+    }
 }
