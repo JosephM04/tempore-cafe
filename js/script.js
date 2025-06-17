@@ -4,10 +4,15 @@ const header = document.querySelector('.header');
 const presentacionTitulo = document.querySelector('.presentacion-titulo');
 const desplegarMenu = document.querySelector('.desplegar-menu');
 const navMenu = document.querySelector('.nav-menu');
+const loader = document.querySelector(".loader-cont");
+// window.onload = function() {
+//     presentacionTitulo.style.opacity = 0.15;
+// }
 
-window.onload = function() {
-    presentacionTitulo.style.opacity = 0.15;
-}
+// Loader que desaparecera cuando la pagina termine de cargar
+window.addEventListener("load", ()=> {
+    loader.style.display = "none";
+})
 
 // configuracion para desplegar menu
 
