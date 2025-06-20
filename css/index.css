@@ -37,7 +37,7 @@
     display: flex;
         width: 100%;
         background-image: url("../imagenes/Foto-tempore-por-dentro.jpg");
-        min-height: 90vh;
+        min-height: 80vh;
         background-position: center;
         background-attachment: fixed;
         background-position: center;
@@ -189,7 +189,7 @@
         display: flex;
         width: 100%;
         background-image: url("../imagenes/Pintura.JPG");
-        min-height: 100vh;
+        min-height: 85vh;
         background-position: center;
         background-attachment: fixed;
         background-position: center;
