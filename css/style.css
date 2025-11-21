@@ -48,6 +48,13 @@ body {
     z-index: 1001;
 }
 
+.instagram-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Safari */
 @-webkit-keyframes spin {
     0% {
